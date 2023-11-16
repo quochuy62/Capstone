@@ -1,0 +1,1 @@
+## chỗ này ưng code chi code :v hàm xử lí các kiểu
