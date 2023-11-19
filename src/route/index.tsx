@@ -1,14 +1,24 @@
+import { lazy} from "react";
+
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../pages/home/home";
-import Detail from "../pages/detail/detail";
+const Home = lazy(() => import("../pages/home/home"))
+const Detail = lazy(() => import("../pages/detail/detail"))
+
+import HomeTemplate from "../templates/home/homeTemplate";
 
 export const router = createBrowserRouter([
     {
-    path:'/',
-    element: <Home/>,
-    },
-    {
-    path: '/detail',
-    element: <Detail/>,
+        element: <HomeTemplate/>,
+        children: [
+            {
+                path:'',
+                element: <Home/>,
+                },
+                {
+                path: 'detail',
+                element:   <Detail/>
+                
+                }
+        ]
     }
 ]);
