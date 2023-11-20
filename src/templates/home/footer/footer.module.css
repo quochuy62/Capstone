@@ -1,24 +1,21 @@
-.header{
-    height:5rem;
+.footer{
+    /* height:5rem; */
     background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #fff;
- 
-
+    padding:1rem 0 8rem;
 }
 .logo{
     width: fit-content;
 }
-.nav a{
-    color: #fff;
+
+.face, 
+.instagram,
+.skype,
+.left{
+    display: flex;
+    align-items: center;
     margin: 0 1rem;
-    text-decoration: none;
-}
-.link-active{
-    border-bottom: 0.1rem solid yellow;
-}
-.user{
-    margin-right: 1rem;
 }
