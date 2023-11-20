@@ -15,17 +15,24 @@ const MyCarousel = styled(Carousel)`
    } 
 `;
 
-const CarouselItem = styled.h3`
-height: 160px;
-/* color: #fff; */
-/* line-height: 160px; */
+const CarouselItem = styled.div`
 text-align: center;
-background: #364d79;
+height: 650px;
 `;
+// const Img = styled.img`
+// object-fit: cover;
+// `
+
+const Title = styled.h2`
+font-size: 3rem;
+font-weight: 400;
+color: #d4b447;
+text-align: center;
+`
 
 
 
 
-export {CarouselItem, MyCarousel};
+export {CarouselItem, MyCarousel, Title};
 
 
