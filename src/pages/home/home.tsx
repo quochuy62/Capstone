@@ -15,7 +15,7 @@ function Home() {
    });
   },[]);
 
-  console.log({listFilm})
+ console.log(listFilm)
   return (
     <div>
       <Slider/>
@@ -25,7 +25,7 @@ function Home() {
       <div style={{
         margin:'4rem'
       }}>
-      <ListCard/>
+      <ListCard film={listFilm}/>
 
       </div>
       

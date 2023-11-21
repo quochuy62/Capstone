@@ -2,7 +2,7 @@ import { Card } from "./card";
 import type {TCard} from "./card"
 
 type Props = {
-    data: TCard[];
+    film: TCard[];
 };
 
 export function ListCard(props:Props) {
@@ -14,7 +14,7 @@ export function ListCard(props:Props) {
         flexWrap:"wrap",
     }}
     >
-        {props.data.map((item) =>{
+        {props.film.map((item) =>{
                 return (
                 <Card 
                 src={item.src} 
