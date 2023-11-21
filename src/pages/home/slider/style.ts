@@ -19,9 +19,9 @@ const CarouselItem = styled.div`
 text-align: center;
 height: 650px;
 `;
-// const Img = styled.img`
-// object-fit: cover;
-// `
+const Img = styled.img`
+object-fit: cover;
+`
 
 const Title = styled.h2`
 font-size: 3rem;
@@ -33,6 +33,6 @@ text-align: center;
 
 
 
-export {CarouselItem, MyCarousel, Title};
-
+export {CarouselItem, MyCarousel, Title, Img};
+                  
 
