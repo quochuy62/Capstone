@@ -13,6 +13,7 @@ const MyCarousel = styled(Carousel)`
     }
 
    } 
+
 `;
 
 const CarouselItem = styled.div`
@@ -24,10 +25,10 @@ object-fit: cover;
 `
 
 const Title = styled.h2`
+padding-top: 1rem;
 font-size: 3rem;
-font-weight: 400;
+font-weight: 600;
 color: #d4b447;
-text-align: center;
 `
 
 

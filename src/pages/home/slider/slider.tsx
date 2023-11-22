@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'antd';
-import * as S from './style';
+import * as S from '../style';
 // autoplay
 export function Slider(){
   return(

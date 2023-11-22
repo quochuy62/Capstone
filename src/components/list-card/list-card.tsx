@@ -17,8 +17,10 @@ export function ListCard(props:Props) {
         {props.film.map((item) =>{
                 return (
                 <Card 
+                key={item.id}
                 src={item.src} 
                 name={item.name} 
+                id={item.id}
                 />);
             })}
     
