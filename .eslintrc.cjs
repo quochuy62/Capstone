@@ -15,4 +15,15 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  
 }
+
+
+
+// parser: "@typescript-eslint/parser",
+//   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
+//   plugins: ["react-refresh"],
+//   ignorePatterns: ["**/typescript/*.ts"],
+//   rules: {
+//     "react-refresh/only-export-components": "warn",
+//   },

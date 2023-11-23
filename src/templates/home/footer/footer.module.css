@@ -1,0 +1,22 @@
+.footer{
+    /* height:5rem; */
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding:1rem 0 8rem;
+    margin-top: 1rem;
+}
+.logo{
+    width: fit-content;
+}
+
+.face, 
+.instagram,
+.skype,
+.left{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
