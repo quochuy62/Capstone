@@ -10,6 +10,11 @@ export const getAllFilm = async (): Promise<TFilmAPI[]> => {
     }
     
 }
+
+
+
+
+
 // export const getFilmByID = async(id:number) =>{
 //     try{
 //         const resp = await axiosWithoutAuth("QuanLyPhim/LayDanhSachPhim");

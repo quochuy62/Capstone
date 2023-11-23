@@ -19,16 +19,25 @@ function Home() {
   return (
     <div>
       <Slider/>
+
       <S.Title>MOVIE SELECTION</S.Title>
       <hr/>
-
 
       <div style={{
         margin:'4rem'
       }}>
       <ListCard film={listFilm}/>
+      </div>
+
+
+      <S.Title>CINEMA SYSTEM</S.Title>
+      <hr/>
+
+      <div>
 
       </div>
+
+      
       
     </div>
   )
