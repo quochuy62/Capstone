@@ -1,22 +1,22 @@
 @font-face {
     font-family: Roboto;
     src: url("src/assets/fonts/Roboto-Bold.tff");
-    font-weight: bolder;
+    font-weight: 700;
 }
 @font-face {
     font-family: Roboto;
     src: url("src/assets/fonts/Roboto-Thin.tff");
-    font-weight: lighter;
+    font-weight: 300;
 }
 @font-face {
     font-family: Roboto;
     src: url("src/assets/fonts/Roboto-Regular.tff");
-    font-weight: normal;
+    font-weight: 500;
 }
 @font-face {
     font-family: Roboto;
     src: url("src/assets/fonts/Roboto-Medium.tff");
-    font-weight: bold;
+    font-weight: 600;
 }
 
 
