@@ -1,4 +1,5 @@
 import {styled} from "styled-components";
+import { Radio, Space, Tabs } from 'antd';
 
 
 export const Card = styled.img`
