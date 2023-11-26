@@ -5,9 +5,17 @@ export type TAvatar ={
   id: any;
   alt?:string;
   logo: string;
-}
-
-type Props = Omit<TAvatar,"id">
+  danhSachPhim: {
+    tenPhim: string;
+    lstLichChieuTheoPhim:{
+      tenRap: string;
+      ngayChieuGioChieu: string;
+    }
+  }
+  }
+ 
+type Props = Omit<TAvatar,"danhSachPhim">;
+// type Props = TAvatar;
 export function Avatar(props: Props) {
   return (
     <div>
