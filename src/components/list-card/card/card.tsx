@@ -25,7 +25,7 @@ export function Card(props: Props){
 
         </div> 
         <div className="action">
-            <S.Button onClick={handleNavigate}>ĐẶT VÉ</S.Button>
+            <S.Button onClick={handleNavigate}>Chi tiết</S.Button>
         </div>
 
         

@@ -42,10 +42,11 @@ function Detail() {
           Ngày khởi chiếu: {detail?.ngayKhoiChieu}<br/>
           Đánh giá: {detail?.danhGia}/10 <br/>
 
-          <D.status>
-          {detail?.dangChieu ? "Đang chiếu" : ""}
-          {detail?.sapChieu ? "Sắp chiếu" : ""}
-          </D.status>
+          Trạng thái: {detail?.dangChieu ? "Đang chiếu" : ""} l {detail?.sapChieu ? "Sắp chiếu" : ""}
+          
+          <br/>
+
+          <D.action> Đặt vé</D.action>
 
         </D.Desc>
     
