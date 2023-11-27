@@ -1,4 +1,4 @@
-import React from "react";
+        import React from "react";
 import { Card } from "./card";
 import type { TCard } from "./card";
 import { Swiper, SwiperSlide } from "swiper/react";

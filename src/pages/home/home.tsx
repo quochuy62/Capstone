@@ -7,6 +7,7 @@ import { getAllFilm, getAllRap } from 'src/services/list-film';
 import { IIFE } from 'src/utils/homedetail';
 import { convertFilm } from './convert';
 import ListSystem from './system/list-system';
+import {TheaterMenu} from 'src/components/TheaterMenu';
 
 function Home() {
   const [listFilm, setListFilm] = useState([]);
@@ -44,7 +45,8 @@ function Home() {
       <S.Title>CINEMA SYSTEM</S.Title>
       <hr/>
 
-      <ListSystem rap={listRap}/>
+      {/* <ListSystem rap={listRap}/> */}
+      <TheaterMenu/>
 
       
     </div>

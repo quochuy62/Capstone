@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import css from "./header.module.css"
 import logo from "src/assets/icon/logo.svg"
 
@@ -10,10 +10,18 @@ function Header() {
       <img className={css["logo"]} src={logo}/> 
       </div>
       <nav className={css["nav"]}>
-      <Link to="/">Home</Link>
-        <Link className={css["link-active"]} to="/detail">Showing Movies</Link>
-        <Link to="/">Sign In</Link>
-        <Link to="/">Sign Up</Link>
+      <NavLink 
+      style={(rest) => {
+        return {
+          color: rest.isActive ? "red" : "white",
+        };
+      }}
+      className={css["link-active"]}
+      to={"/"}
+      >Home</NavLink>
+        <NavLink className={css["link-active"]} to="/">Showing Movies</NavLink>
+        <NavLink className={css["link-active"]} to="/">Sign In</NavLink>
+        <NavLink className={css["link-active"]} to="/">Sign Up</NavLink>
       </nav>
       <div className={css["user"]}>
         <span>user@gmail.com</span>
